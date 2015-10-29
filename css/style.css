@@ -60,12 +60,20 @@ p{
   color: #fff;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 li {
     display: block;
     list-style: none;
     width: 100%;
     float: left;
+    padding: 0 1rem 0 0;
 }
+
+
 
 @media screen and (min-width: 600px){
     li {
